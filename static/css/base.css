@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font:14px/1.5 "微软雅黑","Microsoft YaHei",arial,tahoma,"Hiragino Sans GB",'宋体';
+}
+address {
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+}
+ul,ol {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border: none;
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	display: block;
+	visibility: none;
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.white {
+    color:#FFFFFF;
+}
+.black {
+    color: #000000;
+}
+.sky-blue {
+    color:#23A3DD;
+}
+.brown {
+    color:#D59123;
+}
+.gray {
+    color: #978D8E;
+}
+.gray-light {
+    color:#484848;
+}
+.yellow {
+    color: #F38B10;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-20 {
+    font-size:20px;
+}
+.font-23 {
+    font-size: 23px;
+    font-weight:bold;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-30 {
+    font-size: 30px;
+}
+.inline-block {
+    display:inline-block;
+    *display: inline;
+    *zoom:1;
+}

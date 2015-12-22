@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>鹏金所 - 专业、安全、便捷的互联网理财融资平台</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div class="top-bar" style="position:relative;z-index: 999">
+        <div class="container clearfix">
+            <div class="tel-wrap left">客服热线：400 866 9008</div>
+            <div class="follow-us left">
+                关注我们:
+                <a href="javascript:void(0)" class="icon weibo-icon">
+
+                </a>
+                <a href="javascript:void(0)" class="icon weixin-icon" id="J_weixin-icon">
+                    <div class="weixin-wrap" id="J_weixin" style="display:none">
+                        <span class="triangle"></span>
+                        <div class="weixin-inner-wrap">
+                            <div class="clearfix">
+                                <div class="left clearfix weixin-left" >
+                                    <div class="left"><span class="code-weixin-subscribe"></span></div>
+                                    <div class="left weixin-words">
+                                        <span class="code-weixin"></span>
+                                        <p class="font-20 black">鹏金所</p>
+                                        <p class="font-16 gray">订阅号</p>
+                                    </div>
+                                </div>
+                                <div class="right clearfix weixin-right">
+                                    <div class="left"><span class="code-weixin-public"></span></div>
+                                    <div class="left weixin-words">
+                                        <span class="code-weixin"></span>
+                                        <p class="font-20 black">鹏金所</p>
+                                        <p class="font-16 gray">公众号</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="count-wrap right gray">
+                欢迎您，
+                <span><a href="javascript:void(0)" class="brown">fandy</a></span>&nbsp;&nbsp;&nbsp;
+                <span>[<a href="javascript:void(0)" class="gray">退出</a>]</span>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container clearfix">
+            <div class="left">
+                <a href="javascript:void(0)" class="icon logo-icon"></a>
+                <span class="icon new-year-icon"></span>
+                &nbsp;
+            </div>
+            <div class="right">
+                <div class="clearfix">
+                    <div class="right my-count-wrap"><a href="javascript:void(0)" class="my-count-link">我的账户</a></div>
+                    <div class="right title-wrap">
+                        <ul class="title-ul clearfix" id="J_nav-ul">
+                            <li class="current-li"><a href="javascript:void(0)">首页</a></li>
+                            <li><a href="javascript:void(0)">我要投资</a></li>
+                            <li><a href="javascript:void(0)">我要借款</a></li>
+                            <li><a href="javascript:void(0)">新手指引</a></li>
+                            <li><a href="javascript:void(0)">关于我们</a></li>
+                        </ul>
+                        <div class="current" id="J_current"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="banner-wrap" id="J_banner-wrap">
+        <ul class="banner-ul">
+            <li id="J_banner3"><img src="images/banner3.jpg" alt=""/></li>
+            <li id="J_banner2"><img src="images/banner2.jpg" alt=""/></li>
+            <li id="J_banner1"><img src="images/banner1.jpg" alt=""/></li>
+        </ul>
+        <div class="circle-wrap">
+            <a class="circle active" id="J_circle1" href="javascript:void(0)"></a>
+            <a class="circle" id="J_circle2" href="javascript:void(0)"></a>
+            <a class="circle" id="J_circle3" href="javascript:void(0)"></a>
+        </div>
+    </div>
+    <div class="thumb-wrap">
+        <div class="container">
+            <span class="icon icon-jx-right"></span>
+            <ul class="clearfix thumb-ul">
+                <li>
+                    <a href="javascript:void(0)" class="icon icon-thumb icon-idea"></a>
+                    <div class="thumb-words-wrap">
+                        <p class="thumb-title sky-blue">经营理念</p>
+                        <p class="thumb-sub">致力于解决小微企业</p>
+                        <p class="thumb-sub">融资难融资贵</p>
+                        <p class="thumb-sub">致力于搭建投资者安全理财平台</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="icon icon-thumb icon-strength"></a>
+                    <div class="thumb-words-wrap">
+                        <p class="thumb-title sky-blue">实力雄厚</p>
+                        <p class="thumb-sub"><span class="sky-blue">22</span>家上市公司和国有</p>
+                        <p class="thumb-sub">担保机构联袂打造</p>
+                        <p class="thumb-sub">注册资本雄厚，权威合作机构</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="icon icon-thumb icon-security"></a>
+                    <div class="thumb-words-wrap">
+                        <p class="thumb-title sky-blue">安全保障</p>
+                        <p class="thumb-sub">优选优质项目</p>
+                        <p class="thumb-sub">银行级信息安全系统</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="icon icon-thumb icon-profit"></a>
+                    <div class="thumb-words-wrap">
+                        <p class="thumb-title sky-blue">收益稳健</p>
+                        <p class="thumb-sub sky-blue">8%~10%</p>
+                        <p class="thumb-sub">稳定收益率</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="icon icon-thumb icon-convenient"></a>
+                    <div class="thumb-words-wrap">
+                        <p class="thumb-title sky-blue">灵活便捷</p>
+                        <p class="thumb-sub">投资门槛低</p>
+                        <p class="thumb-sub">期限灵活</p>
+                        <p class="thumb-sub">转让便捷</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--好金盈 satrt-->
+    <div class="main-wrap" id="J_main-wrap">
+        <div class="container">
+            <span class="icon icon-zhaocai"></span>
+            <div class="clearfix">
+                <!--left start-->
+                <div class="left main-left border-wrap" id="main-left-wrap">
+                    <div class="main-title-wrap border-bottom">
+                        <div class="main-title-inner-wrap">
+                            <div class="clearfix">
+                                <div class="left">
+                                    <ul class="clearfix main-title-ul">
+                                        <li class="img-li"><img src="images/icon-block.png" alt=""/></li>
+                                        <li class="main-title-active"><a href="javascript:void(0)">好金盈</a></li>
+                                        <li class="vertical-bar-big"></li>
+                                        <li><a href="javascript:void(0)" class="black gray">债权转让</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <a href="javascript:void(0)" class="right black">更多>></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom border-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <ul class="list-item-ul clearfix">
+                            <li class="w90">
+                                <div class="list-field">
+                                    <p class="list-field-1">好金盈</p>
+                                    <p class="list-field-2">A20140811</p>
+                                </div>
+                            </li>
+                            <li class="w225">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">800 000</span><span class="font-15">元</span></p>
+                                    <p class="list-field-2">融资金额</p>
+                                </div>
+                            </li>
+                            <li class="w120">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">12%</span></p>
+                                    <p class="list-field-2">年利率</p>
+                                </div>
+                            </li>
+                            <li class="w145">
+                                <div class="list-field">
+                                    <p class="list-field-1"><span class="yellow font-30">10</span><span class="font-15">个月</span></p>
+                                    <p class="list-field-2">期限</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-field">
+                                    <a href="javascript:void(0)" class="invest-btn">投资</a>
+                                    <p></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="item-bottom-wrap">
+                            <div class="item-bottom">
+                                <span class="icon icon-circle"></span>
+                                <span class="middle-span">证大速贷 担保</span>
+                                <span class="rest-wrap">剩余可投金额：<span class="yellow">300,000</span></span>
+                                <div class="inline-block invest-wrap">
+                                    <span>投资进度:</span>
+                                    <div class="progress-wrap inline-block">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <span>76%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--left end-->
+                <!--right start-->
+                <div class="left main-right" id="main-right-wrap">
+                    <!--学理财-->
+                    <div class="learn-wrap">
+                        <a href="javascript:void(0)"><img src="images/videobg.png" alt=""/></a>
+                    </div>
+                    <!--公告-->
+                    <div class="announce-wrap border-wrap">
+                        <div class="announce-top border-bottom">
+                            <div class="clearfix">
+                                <h3 class="left">公告</h3 >
+                                <a href="javascript:void(0)" class="right black">更多</a>
+                            </div>
+                        </div>
+                        <div class="announce-bottom">
+                            <div class="announce-detail-wrap">
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--收益对比-->
+                    <div class="benifits-wrap border-wrap">
+                        <div class="benifits-top border-bottom" id="benifits">
+                            <div class="clearfix">
+                                <h3 class="left">收益对比图</h3 >
+                            </div>
+                        </div>
+                        <div class="benifits-bottom">
+                            <div class="benifits-img-wrap">
+                                <img src="images/benifits.jpg" alt=""/>
+                                <div class="benifits-title-wrap">
+                                    <span class="gray">银行理财</span>
+                                    <span class="gray">货币基金</span>
+                                    <span >鹏金所</span>
+                                    <span class="bank">2.75%</span>
+                                    <span class="currency">4%</span>
+                                    <span class="penging brown">8%~10%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--公司新闻-->
+                    <div class="news-wrap border-wrap" id="news">
+                        <div class="news-top border-bottom">
+                            <div class="clearfix">
+                                <h3 class="left">公司新闻</h3 >
+                                <a href="javascript:void(0)" class="right black">更多</a>
+                            </div>
+                        </div>
+                        <div class="news-bottom">
+                            <div class="news-detail-wrap">
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                                <p><a href="javascript:void(0)" class="gray-light">22家上市公司结盟打造互联网金融</a></p>
+                            </div>
+                        </div>
+                        <span class="icon icon-jx-right-bottom"></span><!--相对右边最后一个模块定位-->
+                    </div>
+                </div>
+                <!--right end-->
+            </div>
+        </div>
+    </div>
+    <!--好金盈 end-->
+    <!--媒体报道 start-->
+    <div class="media-wrap">
+        <div class="container border-wrap">
+            <div class="media-title-wrap border-bottom">
+                <div class="media-title">
+                    <div class="clearfix">
+                        <h3 class="left">媒体报道</h3 >
+                        <a href="javascript:void(0)" class="right black">更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="media-list-wrap">
+                <div class="media-list-inner-wrap">
+                    <ul class="clearfix">
+                        <li>
+                            <div>
+                                <div class="media-logo">
+                                    <div class="media-logo-wrap">
+                                        <img src="images/zhengquan.png" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="media-words-wrap">
+                                    <span class="lq quote">“</span>
+                                    鹏金所基本完成全国国有担保机构布局，共同
+                                    致力于打造安全可靠的投融资渠道，搭建小微
+                                    企业服务平台，助推我国实体经济发展。
+                                    <span class="quote">”</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="medium-li">
+                            <div>
+                                <div class="media-logo">
+                                    <div class="media-logo-wrap">
+                                        <img src="images/jingji.png" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="media-words-wrap">
+                                    <span class="lq quote">“</span>
+                                    鹏金所在全国各地设立分支机构，最大范围为
+                                    小微企业提供针对性融资服务，力争成为全国
+                                    金融创新体系中的排头兵。
+                                    <span class="quote">”</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="media-logo">
+                                    <div class="media-logo-wrap">
+                                        <img src="images/renmin.png" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="media-words-wrap">
+                                    <span class="lq quote">“</span>
+                                    鹏金所通过将金融和互联网科技结合，为小微
+                                    企业融资需求和投资理财资金搭建了一个安全可
+                                    靠的平台。
+                                    <span class="quote">”</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--媒体报道 end-->
+    <!--organize start-->
+    <div class="organize-wrap">
+        <div class="container border-wrap">
+            <div class="organize-title-wrap border-bottom">
+                <div class="organize-title">
+                    <div class="clearfix">
+                        <div class="left">
+                            <ul class="clearfix">
+                                <li class="organize-title-active" id="J_organize-tab">
+                                    <a href="javascript:void(0)">担保机构</a>
+                                </li>
+                                <li class="vertical-bar"></li>
+                                <li id="J_companies-tab">
+                                    <a href="javascript:void(0)">上市公司</a>
+                                </li>
+                                <li class="vertical-bar"></li>
+                                <li id="J_cooperation-tab">
+                                    <a href="javascript:void(0)">合作机构</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0)" class="right black">更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="org-img-wrap" id="J_guarantors-wrap">
+                    <ul class="org-ul " id="J_guarantors">
+                        <li>
+                            <a href="javascript:void(0)"><img src="images/1.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/2.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/3.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/4.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/5.png" alt=""/></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><img src="images/6.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/7.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/8.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/9.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/10.png" alt=""/></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><img src="images/1.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/2.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/3.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/4.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/5.png" alt=""/></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><img src="images/6.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/7.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/8.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/9.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/10.png" alt=""/></a>
+                        </li>
+                    
+                    </ul>
+            </div>
+            <div class="company-img-wrap" style="display:none;" id="J_companies-wrap">
+                    <ul class="company-ul clearfix" id="J_companies">
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/1.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/6.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/2.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/7.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/3.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/8.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/4.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/9.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/5.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/10.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/1.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/6.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/2.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/7.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/3.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/8.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/4.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/9.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/5.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/10.png" alt=""/></a></div>
+                        </li>
+                    </ul>
+            </div>
+            <div class="company-img-wrap" style="display:none;" id="J_cooperation-wrap">
+                    <ul class="company-ul cooperation-ul clearfix" id="J_cooperation" style="left:-965px;">
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/1.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/6.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/2.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/7.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/3.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/8.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/4.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/9.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/5.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/10.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/1.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/6.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/2.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/7.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/3.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/8.png" alt=""/></a></div>
+                        </li>
+                         <li>
+                            <div><a href="javascript:void(0)"><img src="images/4.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/9.png" alt=""/></a></div>
+                        </li>
+                        <li>
+                            <div><a href="javascript:void(0)"><img src="images/5.png" alt=""/></a></div>
+                            <div><a href="javascript:void(0)"><img src="images/10.png" alt=""/></a></div>
+                        </li>
+                  
+                    
+                    </ul>
+            </div>
+            <span class="icon icon-jx-left"></span>
+        </div>
+    </div>
+    <!--organize end-->
+    <div class="links-wrap">
+        <div class="container">
+            <div class="links-inner-wrap clearfix">
+                <div class="left">
+                    <p class="font-16 black">客服热线 ( 工作时间 8:00-22:00 ) </p>
+                    <p class="font-28">400 988 6888</p>
+                    <p class="font-14">
+                        客服邮箱 info@penging.com&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:void(0)" class="gray online-service-words">在线客服&nbsp;&nbsp;<img src="images/message.png" alt=""/></a>
+                    </p>
+                </div>
+                <div class="right">
+                    <div class="clearfix">
+                        <div class="right about">
+                            <a href="javascrip:void(0)">关于我们</a>&nbsp;&nbsp;
+                            <a href="javascript:void(0)"><img src="images/sina.png" alt=""/></a>
+                            <a href="javascript:void(0)"><img src="images/weixin.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <ul class="clearfix links-ul right">
+                        <li><a href="javascript:void(0)">首页</a></li>
+                        <li><a href="javascript:void(0)">我要投资</a></li>
+                        <li><a href="javascript:void(0)">我要借款</a></li>
+                        <li><a href="javascript:void(0)">新手指引</a></li>
+                        <li><a href="javascript:void(0)">关于我们</a></li>
+                        <li><a href="javascript:void(0)">我的账户</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="clearfix">
+                <span class="copy-right left font-15">
+                     © 2014 鹏金所 All rights reserved  |  深圳市鹏鼎创盈金融信息服务股份有限公司  |  粤ICP备：88888888号
+                </span>
+                <a href="javascript:void(0)" class="copy-right-img-wrap right">
+
+                    <img class="copy-right-img" src="images/network-social.png" alt=""/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="libs/jquery-1.11.0.js"></script>
+</body>
+</html>
